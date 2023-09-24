@@ -1,0 +1,112 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+	
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+</style>
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90640913-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90640913-1');
+</script>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+<script>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 900); 
+        return false; 
+    }); 
+});
+</script>
+
+
+
+
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PGSF Architects, Work</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+<link rel="shortcut icon" href="favicon.ico">
+
+Do the following if you're using your customized build of modernizr (https://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+	
+<body>
+
+<div class="gridContainer clearfix">
+ 
+<div id="logo"> <h1>pgsf</h1><h2>architects</h2> </div> 
+
+<div id="about"><a href="about.html">about</a></div>
+
+
+
+	
+<div id="project_00"><img src="images/Render_02.jpg"></div>
+
+<div id="project_01"><img src="images/Render_01.jpg"></div>
+
+<div id="project_02"><img src="images/Render_03.jpg"></div>
+
+<div id="project_03"><img src="images/Render_04.jpg"></div>
+
+<div id="project_04"><img src="images/frame_01.jpg"></div>
+
+<div id="project_05"><img src="images/frame_04.jpg"></div>
+   
+<div id="project_06"><img src="images/frame_02.jpg"></div>
+
+<div id="project_07"><img src="images/frame_05.jpg"></div>
+ 
+<div id="project_08"><img src="images/01.jpg"></div>
+ 
+
+
+<a href="#" id="scroll" style="display: none;"><span></span></a>
+	
+
+	
+	
+ 
+<div id="copyrights">© 2019 PGSF Architects All Rights Reserved</div>
+
+</div>
+</body>
+</html>
